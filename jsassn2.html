@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+</head>
+<body>
+    <script>
+        let a=parseInt(prompt('Enter a number'));
+        if(a%3==0 && a%5==0){
+            alert('The number is divisible by both the numbers')
+        }
+        else{
+            alert('The number is not divisible by either of the number')
+        }
+
+        let maths=35;
+        let science=20;
+        if(maths>=35 || science>=35){
+            alert('Passed')
+            
+        }
+        else{
+            alert('Failed')
+        }
+
+        let username='admin';
+        let password=12345;
+
+        if(username=='admin' || password==12345){
+            alert('LOGIN IS VALID')
+        }
+        else{
+            alert('LOGIN INVALID')
+        }
+
+        let username1='manager'
+        if(username=='admin' || username1=='manager'){
+            alert('Valid Username')
+
+        }
+        else{
+            alert('Invalid Username')
+
+        }
+
+
+        let age=65;
+        if(age>=60){
+            alert('Eligible for senior citizenship')
+        }
+        else{
+            alert('not eligible for senior citizenship')
+        }
+    </script>
+</body>
+</html>
